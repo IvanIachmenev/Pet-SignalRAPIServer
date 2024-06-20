@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRAPI", "SignalRAPI\SignalRAPI.csproj", "{8ED419C5-E660-4701-8C6C-D382A07FFB17}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D0795245-B4EF-405F-9F11-BDB3DED14FCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8ED419C5-E660-4701-8C6C-D382A07FFB17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ED419C5-E660-4701-8C6C-D382A07FFB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ED419C5-E660-4701-8C6C-D382A07FFB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ED419C5-E660-4701-8C6C-D382A07FFB17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0795245-B4EF-405F-9F11-BDB3DED14FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0795245-B4EF-405F-9F11-BDB3DED14FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0795245-B4EF-405F-9F11-BDB3DED14FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0795245-B4EF-405F-9F11-BDB3DED14FCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAF9C7EC-3B8F-401E-96E6-7B9CEE97C571}
+	EndGlobalSection
+EndGlobal
